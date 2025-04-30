@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>DOM Manipulation Example</title>
+    <title>Interactive Colorful page</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <header>
-        <h1 id="main-heading">Welcome to My Page</h1>
+        <h1 id="main-heading">Welcome to My Colorful Page</h1>
     </header>
 
     <section>
-        <p id="info-text">Click the buttons below to interact with this page.</p>
-        <button onclick="changeText()">Change Text</button>
-        <button onclick="changeStyle()">Change Style</button>
-        <button onclick="addElement()">Add Element</button>
-        <button onclick="removeElement()">Remove Element</button>
+        <p id="info-text">Click the buttons below to interact with this vibrant page.</p>
+        <div class="button-group">
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="changeStyle()">Change Style</button>
+            <button onclick="addElement()">Add Element</button>
+            <button onclick="removeElement()">Remove Element</button>
+        </div>
+       
     </section>
 
     <article id="dynamic-content"></article>
